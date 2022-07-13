@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", "Kanit", "Raleway", sans-serif;
   color: black;
+  margin: auto;
+  width: 1920px;
 }
 * {
   text-decoration: none;
@@ -15,18 +17,18 @@ body {
 }
 .container {
   margin: auto;
-  width: 1400px;
+  min-width: 1400px;
 }
 header {
   display: flex;
   justify-content: center;
 }
 .header-format {
-  position: fixed;
+  /* position: fixed; */
   height: 100px;
   display: flex;
-  width: 100%;
-  border-bottom: 1px solid black;
+  width: 1920px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   background-color: white;
 }
 .header-logo {
@@ -45,7 +47,6 @@ header {
   background-color: black;
 }
 .header-logo-text {
-  position: absolute;
   font-family: "Kanit";
   font-size: 38px;
   line-height: calc(40 / 38);
@@ -104,12 +105,11 @@ header {
 }
 
 .main-baner {
-  margin-top: 100px;
-  width: 100%;
+  width: 1920px;
   height: 500px;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.7) 1%,
-      rgba(255, 140, 0, 0.5) 99%
+      rgba(255, 140, 0, 0.7) 99%
     ),
     url(../images/images_main/baner.jpg);
   background-repeat: no-repeat;
@@ -117,6 +117,6 @@ header {
 }
 
 .test-bot {
-  margin-top: 100px;
-  height: 14000px;
+  display: flex;
+  justify-content: center;
 }
