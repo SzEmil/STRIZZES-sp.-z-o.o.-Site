@@ -26,7 +26,7 @@ header {
   height: 100px;
   display: flex;
   width: 100%;
-  border-bottom: 1px solid rgb(255, 140, 0);
+  border-bottom: 1px solid black;
   background-color: white;
 }
 .header-logo {
@@ -70,9 +70,6 @@ header {
 }
 .social-links {
   color: black;
-  /* border-radius: 25%;
-  background-color: white;
-  padding: 12px 24px 12px 24px;*/
 }
 .social-links:hover,
 .social-links:focus {
@@ -81,14 +78,28 @@ header {
 
 .header-contact-links {
   display: flex;
-  padding-left: 360px;
+  padding-left: 260px;
 }
 .contact-links {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
 }
 .contact-links:hover,
 .contact-links:focus {
   color: rgb(255, 140, 0);
+  fill: rgb(255, 140, 0);
+}
+.header-contact-icon-box {
+  display: flex;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.icon-contact {
+  display: flex;
 }
 
 .test-bot {
