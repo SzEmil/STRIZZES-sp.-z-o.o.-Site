@@ -69,6 +69,7 @@ header {
   margin-left: 120px;
 }
 .social-links {
+  display: inline;
   color: black;
 }
 .social-links:hover,
@@ -78,7 +79,7 @@ header {
 
 .header-contact-links {
   display: flex;
-  padding-left: 260px;
+  padding-left: 360px;
 }
 .contact-links {
   color: rgb(0, 0, 0);
