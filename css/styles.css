@@ -102,6 +102,19 @@ header {
   display: flex;
 }
 
+.main-baner {
+  margin-top: 100px;
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7) 1%,
+      rgba(255, 140, 0, 0.5) 99%
+    ),
+    url(/images/baner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .test-bot {
   margin-top: 100px;
   height: 14000px;
