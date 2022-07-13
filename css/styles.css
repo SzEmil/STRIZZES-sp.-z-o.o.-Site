@@ -13,11 +13,21 @@ body {
 *::after {
   box-sizing: border-box;
 }
+.container {
+  margin: auto;
+  width: 1400px;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
 .header-format {
+  position: fixed;
   height: 100px;
   display: flex;
-  min-width: 1600px;
+  width: 100%;
   border-bottom: 1px solid rgb(255, 140, 0);
+  background-color: white;
 }
 .header-logo {
   display: flex;
@@ -43,10 +53,6 @@ body {
 }
 .header-logo-part {
   color: rgb(255, 140, 0);
-}
-.container {
-  margin: auto;
-  width: 1400px;
 }
 .headmod {
   display: flex;
@@ -75,7 +81,7 @@ body {
 
 .header-contact-links {
   display: flex;
-  padding-left: 160px;
+  padding-left: 360px;
 }
 .contact-links {
   color: rgba(0, 0, 0, 0.5);
@@ -83,4 +89,9 @@ body {
 .contact-links:hover,
 .contact-links:focus {
   color: rgb(255, 140, 0);
+}
+
+.test-bot {
+  margin-top: 100px;
+  height: 14000px;
 }
