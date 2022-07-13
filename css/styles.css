@@ -1,8 +1,6 @@
 body {
   font-family: "Roboto", "Kanit", "Raleway", sans-serif;
   color: black;
-  margin: auto;
-  width: 1920px;
 }
 * {
   text-decoration: none;
@@ -16,8 +14,9 @@ body {
   box-sizing: border-box;
 }
 .container {
-  margin: auto;
-  min-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
 }
 header {
   display: flex;
@@ -27,7 +26,7 @@ header {
   /* position: fixed; */
   height: 100px;
   display: flex;
-  width: 1920px;
+  width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   background-color: white;
 }
@@ -105,7 +104,7 @@ header {
 }
 
 .main-baner {
-  width: 1920px;
+  width: 100%;
   height: 500px;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.7) 1%,
@@ -114,6 +113,11 @@ header {
     url(../images/images_main/baner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .test-bot {
