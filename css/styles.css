@@ -16,12 +16,9 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1400px;
+  width: 1200px;
 }
-header {
-  display: flex;
-  justify-content: center;
-}
+
 .header-format {
   /* position: fixed; */
   height: 100px;
@@ -54,20 +51,7 @@ header {
 .header-logo-part {
   color: rgb(255, 140, 0);
 }
-.headmod {
-  display: flex;
-  align-items: center;
-}
-.header-list-format {
-  display: flex;
-  padding-left: 200px;
-}
-.header-list-mod:nth-child(2) {
-  margin-left: 120px;
-}
-.header-list-mod:nth-child(3) {
-  margin-left: 120px;
-}
+
 .social-links {
   display: inline;
   color: black;
@@ -103,6 +87,12 @@ header {
   display: flex;
 }
 
+.header-display-format {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .main-baner {
   width: 100%;
   height: 500px;
@@ -119,8 +109,121 @@ header {
   margin: 0;
   padding: 0;
 }
-
-.test-bot {
+/* STYLOWANIE SEKCJI STRONY MAIN */
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.product {
+}
+.team {
+  padding-top: 0;
+}
+/* STYLOWANIE SEKCJI PRODUKTU */
+.main-product-format {
   display: flex;
   justify-content: center;
+}
+.main-product-photo {
+  display: block;
+}
+.main-product-box {
+  width: 700px;
+  /* height: 600px; */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+h2 {
+  font-size: 38px;
+  line-height: calc(40 / 38);
+  color: black;
+  text-align: center;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.main-product-photo-header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main-product-photo-description {
+  display: flex;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/* STYLIZACJA TEAMU */
+.main-team-format {
+  display: flex;
+  justify-content: space-around;
+}
+.main-photo-team-background {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.main-photo-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+
+  letter-spacing: 0.03em;
+  padding-top: 30px;
+}
+.main-photo-description {
+  font-size: 16px;
+  line-height: 1.1875;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-link-content);
+
+  padding-top: 10px;
+}
+h3 {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.main-photo-team-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main-photo-team-icons-choose:nth-child(n + 2) {
+  padding-left: 10px;
+}
+.main-team-icon-background {
+  display: flex;
+  background-color: white;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.icon-team {
+  padding: 12px;
+  fill: #afb1b8;
+}
+.main-team-icon-background:hover,
+.main-team-icon-background:focus {
+  background-color: rgb(255, 140, 0);
+}
+.icon-team:hover,
+.icon-team:focus {
+  fill: white;
+}
+/* STYLIZACJA STOPKI STRONY */
+.footer-background-format {
+  background-color: black;
+  height: 100px;
+}
+.logo-footer {
+  color: white;
 }
