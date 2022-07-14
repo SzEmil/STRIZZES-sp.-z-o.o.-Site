@@ -219,6 +219,9 @@ h3 {
 .icon-team:focus {
   fill: white;
 }
+.team-photo-block {
+  display: block;
+}
 /* STYLIZACJA STOPKI STRONY */
 .footer-background-format {
   background-color: black;
