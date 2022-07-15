@@ -62,34 +62,32 @@
         <div class="container">
           <h2 id="Produkty" class="main-header-product">Nasz produkt</h2>
           <div class="main-product-format">
-            <div class="main-product-box">
-              <figure>
-                <img
-                  class="main-product-photo"
-                  src="/images/images_main/manipulator.png"
-                  width="700"
-                  height="400"
-                  alt="Photo of our manipulator"
-                />
-                <figcaption>
-                  <h3 class="main-product-photo-header">
-                    Manipulator STRIZZ V1
-                  </h3>
-                  <p class="main-product-photo-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-                    perferendis id quam, accusantium commodi fugit? Recusandae
-                    ullam fuga dolores architecto adipisci nobis rerum cumque,
-                    fugiat numquam nihil velit error quis.
-                  </p>
-                </figcaption>
-              </figure>
-            </div>
+            <figure class="main-product-photo">
+              <img
+                src="/images/images_main/baner.png"
+                width="700"
+                height="400"
+                alt="Photo of our manipulator"
+              />
+
+              <figcaption class="main-product-photo-display">
+                <div class="main-product-button-format">
+                  <a class="main-product-button">Manipulator STRIZZ V1</a>
+                </div>
+                <p class="main-product-photo-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                  perferendis id quam, accusantium commodi fugit? Recusandae
+                  ullam fuga dolores architecto adipisci nobis rerum cumque,
+                  fugiat numquam nihil velit error quis.
+                </p>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
       <section class="section team">
         <div class="container">
-          <h2 id="Zespol">Nasz zezpół</h2>
+          <h2 id="Zespol">Zezpół</h2>
           <ul class="main-team-format">
             <li>
               <div class="main-photo-team-background">
@@ -268,5 +266,13 @@
       </footer>
     </main>
     <footer></footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
