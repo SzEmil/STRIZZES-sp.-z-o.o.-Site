@@ -168,7 +168,6 @@ h2 {
 }
 .main-product-button:hover {
   transform: scale(1.2);
-  transition: transform 250ms linear;
 }
 .main-product-button {
   display: flex;
@@ -182,6 +181,8 @@ h2 {
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: rgb(255, 140, 0);
   color: white;
+
+  transition: transform 250ms linear;
 }
 /* STYLIZACJA TEAMU */
 .main-team-format {
