@@ -24,7 +24,8 @@ body {
 }
 
 .header-format {
-  /* position: fixed; */
+  position: fixed;
+  z-index: 20;
   height: 100px;
   display: flex;
   width: 100%;
@@ -113,6 +114,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 /* STYLOWANIE SEKCJI STRONY MAIN */
 .section {
   padding-top: 80px;
